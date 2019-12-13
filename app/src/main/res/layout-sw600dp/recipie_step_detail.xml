@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    >
+
+    <!--
+    This layout is a two-pane layout for the master/detail flow.
+    -->
+
+    <!-- The static MasterListFragment -->
+    <fragment
+        android:id="@+id/ingredientsSteps"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:name="com.oolivares.bakingapp.ingredientsStepsFragment"
+        android:tag="ingsteps"/>
+
+    <!-- A small divider -->
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/fragment_separator"/>
+
+
+    <fragment
+        android:id="@+id/detail_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.oolivares.bakingapp.DetailFragment"
+        android:tag="detail"/>
+
+
+
+
+</LinearLayout>

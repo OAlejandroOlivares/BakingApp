@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BakingApp</string>
+    <string name="baseUrl">https://d17h27t6h515a5.cloudfront.net/topher/2017/May/59121517_baking/baking.json</string>
+    <string name="ing_title">Ingredients</string>
+    <string name="t_widget">Recepies</string>
+    <string name="no_recipie">No recipie selected, open a recipie in app to show ingredients</string>
+    <string name="no_internet">Could not access recipies list</string>
+</resources>
